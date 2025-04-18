@@ -11,23 +11,26 @@
 
 
 .text {
-    padding-top: 60px;
+    padding-top: 50px;
     text-align: center;
-    font: normal normal bold 60px/82px Open Sans;
+    font: normal normal bold 590px/82px Open Sans;
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
 }
 
 .logo {
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .header {
-    grid-area: header;
+    
 }
 
+.navbar {
+    padding-right: 100px;
 
+}
 
 .color {
     color: white;
@@ -42,13 +45,50 @@
 }
 
 .col {
-    padding: 10px;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 30px;
+
+    
 }
 
 .cards {
-    padding-top: 30px;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: #17A2B8;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
     
 }
+
+.footer {
+    padding-top: 15px;
+    text-align: left;
+    font: normal normal bold 30px/45px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  
+    
+}
+
+.footer-logo {
+    background-color: #E83E8C;
+    text-align: center;
+    padding: 30px;
+        
+}
+
+.icono {
+  
+
+}
+
 
 
 @media (max-width: 993px) {
