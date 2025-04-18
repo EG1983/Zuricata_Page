@@ -9,11 +9,18 @@
     padding: 0;
 }
 
-.container > * {
-    box-shadow: -1px 1px 0px rgba(0, 0, 0, 0.75);
+
+.text {
+    padding-top: 60px;
     text-align: center;
-    padding: 5px;
-    border-radius: 8px;
+    font: normal normal bold 60px/82px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.logo {
+    padding-left: 15px;
 }
 
 .header {
@@ -21,11 +28,25 @@
 }
 
 
+
+.color {
+    color: white;
+}
+
 .titulo {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    
+}
+
+.col {
+    padding: 10px;
+}
+
+.cards {
+    padding-top: 30px;
     
 }
 
@@ -42,6 +63,3 @@ display: block;
     background-color: #E83E8C;
 }
 
-.icon-color {
-    font
-}
