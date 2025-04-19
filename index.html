@@ -3,25 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>suricata</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Suricata</title>
+
+    <!--links de Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <!--Styles CSS-->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!--link fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 <body>
   <header class="header">
-    <!-- <div class="container"> -->
+      <!--Navbar-->
         <nav class="navbar navbar-expand-lg bgcolor">
             <div>
                 <img class="logo" src="assets/img/logo.png" alt="" width="132" height="53">
              </div>
+
              <div class="container-fluid">
               <a class="navbar-brand" href="#"></a>
-              <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+              
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
                   <li class="nav-item">
@@ -39,12 +47,12 @@
             </div>
         </nav>
   </header>
-  <!-- </div> -->
+
 
 
 <!-- Nuestros Productos-->
  <div class="text">
-  <p class="fs-1">Nuestros Productos</p>
+  <p>Nuestros Productos</p>
  </div>
 
  <!--Cards con información-->
@@ -55,7 +63,7 @@
         <div class="card" style="width: 18rem;">
           <img src="assets/img/almuerzo.jpg" class="card-img-top" width="248" height="132" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Almuerzo</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
           <ul class="list-group list-group-flush">
@@ -72,7 +80,7 @@
       <div class="col"><div class="card" style="width: 18rem;">
         <img src="assets/img/desayuno.jpg" class="card-img-top" width="248" height="132" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Desayunos</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
         <ul class="list-group list-group-flush">
@@ -88,7 +96,7 @@
       <div class="col"><div class="card" style="width: 18rem;">
         <img src="assets/img/bebidas.jpg" class="card-img-top" width="248" height="132"  alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Bebidas</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
         <ul class="list-group list-group-flush">
@@ -104,7 +112,7 @@
       <div class="col"><div class="card" style="width: 18rem;">
         <img src="assets/img/verduras.jpg" class="card-img-top" width="248" height="132" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Verduras</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
         <ul class="list-group list-group-flush">
@@ -121,7 +129,7 @@
         <div class="card" style="width: 18rem;">
           <img src="assets/img/dulces.jpg" class="card-img-top" width="248" height="132" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Dulces</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
           <ul class="list-group list-group-flush">
@@ -139,7 +147,7 @@
         <div class="card" style="width: 18rem;">
           <img src="assets/img/empanadas.jpg" class="card-img-top" width="248" height="132" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Empanadas</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
           <ul class="list-group list-group-flush">
@@ -158,9 +166,10 @@
   </div>
  </section>
 
- <!--iconos-->
+ <!--iconos, esta sección se oculta en versión mobile-->
+ <div class="icons">
  <section class="icons-section bg-color d-none d-md-block  text-white p-5 ">
-  <div class="container">
+  <div class="container-iconos">
     <div class="row align-items-center">
       <div class="col-4">
         <h2 class="text-nowrap font-weight-bold">
@@ -180,7 +189,9 @@
       </div>
     </div>
   </div>
-</section>
+ </section>
+</div>
+
 
 <!--Footer-->
 <section class="footer">

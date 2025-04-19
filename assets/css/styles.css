@@ -13,7 +13,7 @@
 .text {
     padding-top: 50px;
     text-align: center;
-    font: normal normal bold 590px/82px Open Sans;
+    font: normal normal bold 60px Open Sans;
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
@@ -23,9 +23,6 @@
     padding-left: 30px;
 }
 
-.header {
-    
-}
 
 .navbar {
     padding-right: 100px;
@@ -57,25 +54,13 @@
     border-radius: 4px;
 }
 
-
-.footer-logo {
-    background-color: #E83E8C;
-    text-align: center;
-    padding: 30px;
-        
+.icons {
+    padding-top: 100px;
 }
-
-
-.container-iconos {
+.amex {
     text-align: left;
-    padding: 50px;
-    background-color: #17A2B8;
-    text-align: center;
-    font: normal normal bold 30px/45px Open Sans;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
 }
+
 
 .bg-color {
     background-color: #17A2B8;
