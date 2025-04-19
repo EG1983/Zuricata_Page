@@ -57,25 +57,6 @@
     border-radius: 4px;
 }
 
-.footer {
-    background-color: #17A2B8;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-    
-}
-
-.footer {
-    padding-top: 15px;
-    text-align: left;
-    font: normal normal bold 30px/45px Open Sans;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-  
-    
-}
 
 .footer-logo {
     background-color: #E83E8C;
@@ -84,9 +65,23 @@
         
 }
 
-.icono {
-  
 
+.container-iconos {
+    text-align: left;
+    padding: 50px;
+    background-color: #17A2B8;
+    text-align: center;
+    font: normal normal bold 30px/45px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.bg-color {
+    background-color: #17A2B8;
+}
+.footer {
+    background-color: #E83E8C;
 }
 
 
@@ -102,4 +97,5 @@ display: block;
 .bgcolor {
     background-color: #E83E8C;
 }
+
 

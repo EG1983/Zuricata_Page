@@ -91,7 +91,13 @@ Reaccionar
 
 Responder
 
-
+   <p>Ahora aceptamos</p>
+    <p class="icono"><i class="fa-brands fa-cc-visa"></i></p>
+    <p class="icono"><i class="fa-brands fa-cc-mastercard"></i></p>
+    <p class="icono"><i class="fa-brands fa-cc-amex"></i></p>
+    <p class="icono"><i class="fa-brands fa-cc-diners-club"></i></p>
+    <p class="icono"><i class="fa-brands fa-cc-paypal"></i></p>
+    <p class="icono"><i class="fa-brands fa-cc-discover"></i></p>
 
 
 
