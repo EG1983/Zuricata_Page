@@ -19,6 +19,10 @@
     opacity: 1;
 }
 
+.bgcolor {
+    background-color: #E83E8C;
+}
+
 .logo {
     padding-left: 30px;
 }
@@ -57,9 +61,6 @@
 .icons {
     padding-top: 100px;
 }
-.amex {
-    text-align: left;
-}
 
 
 .bg-color {
@@ -79,8 +80,6 @@ display: block;
 
 
 
-.bgcolor {
-    background-color: #E83E8C;
-}
+
 
 
